@@ -12,7 +12,12 @@ body {
 nav {
     background-color: rgb(250, 249, 244);
     color: rgb(62, 20, 21);
+    
 }
+.nav-link {
+    color: rgb(62, 20, 21) !important;
+    }
+
 .jumbotron {
     text-align: center;
     justify-content: center;
@@ -36,7 +41,7 @@ nav {
     padding-bottom: 15%;
 }
 .solution {
-    padding-top: 10%;
+    padding-bottom: 10%;
    
 }
 .solution > p{
@@ -47,6 +52,19 @@ nav {
    
 }
 .mobile {
+    align-items: center;
+}
+.wire {
+    padding-top: 5%;
+}
+.wire > p{
+    
+    justify-content: center;
+    padding-right: 25%;
+    
+}
+.final {
+    justify-content: center;
     align-items: center;
 }
 .image-container {
