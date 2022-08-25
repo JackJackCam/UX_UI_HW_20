@@ -1,0 +1,66 @@
+html,
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(250, 249, 244);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+nav {
+    background-color: rgb(250, 249, 244);
+    color: rgb(62, 20, 21);
+}
+.jumbotron {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(54, 57, 30);
+    color: white;
+    font: bolder;
+}
+.case-study-body {
+    color: rgb(96, 74, 50);
+    padding: 5%;
+}
+.problem {
+    padding-top: 5%;
+}
+.problem > p{
+    
+    justify-content: center;
+    padding-top: 15%;
+    padding-right: 5%;
+    font-size: 60px;
+    padding-bottom: 15%;
+}
+.solution {
+    padding-top: 10%;
+   
+}
+.solution > p{
+    
+    justify-content: center;
+    
+    padding-right: 5%;
+   
+}
+.mobile {
+    align-items: center;
+}
+.image-container {
+    justify-content: center;
+    text-align: center;
+}
+.row {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.row2 {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
